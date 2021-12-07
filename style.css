@@ -1,0 +1,99 @@
+
+ * {
+     border:none;
+     box-sizing: border-box;
+    
+
+
+     
+
+ }   
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 800px;
+    height: 400px;
+
+    margin-top: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 40px auto;
+
+  
+    
+
+}
+.cars {
+
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    text-align: left;
+    width: calc(100% / 3);
+    /* border: 1px solid #000; */
+   
+    padding: 30px;
+    
+
+}
+img{
+    width: 50px;
+    height: auto;
+}
+.button {
+
+    border-radius:100px;
+    width:130px;
+    height:45px;
+    outline: 0;
+    /* border: white; */
+    
+
+}
+a {
+    text-decoration: none;
+}
+.sedan {
+    background-color: #E28525;
+    border-radius: 10px 0 0 10px;
+}
+.suvs {
+    background-color: #016972;
+}
+.luxry {
+    background-color:#235351 ;
+    border-radius: 0 10px 10px 0;
+}
+p {
+    opacity: 75%;
+   line-height: 1.5em;
+   position: relative;
+   bottom: 20px;
+}
+.sedan-button {
+    color: #E28525; ;
+}
+.lux-button {
+    color: #235351;
+}
+.suvs-button {
+    color:#016972;
+}
+@media only screen and (max-width: 500px) {
+    .container {
+
+    
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height:100%
+        
+      
+    }
+  }
